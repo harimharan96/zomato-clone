@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
@@ -109,6 +111,101 @@ body{
 }
 .videoBox video{
     box-shadow: 10px 10px #ff512f;        
+       
+}
+.videoText{
+    font-size: 150%;
+}
+.menuBG{
+    height: 520px;
+    margin-top: 3%;
+    background: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    background-size: 85% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: skewY(-5deg);
+}
+.menuContainer{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* transform: translateY(-540px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     
+}
+/* .menuHeading{
+    margin-bottom: 3vh;
+} */
+.menuHeading h1{
+    font-size: 3rem;
+}
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menuCard{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.cardImg{
+    position: relative;
+    top: 5px;
+}
+.cardImg img{
+    width: 100%;
+    
+    border-radius: 6px 6px 0 0;
+}
+.cardDetails{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 0 0 6px 6px;
+}
+.cardDesc span{
+    color: #ff512f;
+}
+.hero2{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.hero2Text h2{
+    font-size: 2rem;
+}
+.hero2Text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.hero2Collage img{
+    margin: 1px;
+}
+.hero2Collage{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.collageBottom{
+    display: flex;
+    align-items: flex-start;
+}
+.collageTop{
+    display: flex;
+    align-items: flex-end;
 }
