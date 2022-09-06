@@ -14,12 +14,7 @@ body{
 }
 
 .btn{
-    background: linear-gradient(
-        to right,
-        #ff512f 0%,
-        #dd2476 51%,
-        #ff512f 100%
-    );
+    background-color: #ff512f;
     margin: 10px;
     color: white;
     border: none;
@@ -119,12 +114,7 @@ body{
 .menuBG{
     height: 520px;
     margin-top: 3%;
-    background: linear-gradient(
-        to right,
-        #ff512f 0%,
-        #dd2476 51%,
-        #ff512f 100%
-    );
+    background-color: #ff512f;
     background-size: 85% ;
     background-repeat: no-repeat;
     background-position: center;
@@ -259,12 +249,7 @@ body{
     text-align: center;
 }
 footer{
-    background: linear-gradient(
-        to right,
-        #ff512f 0%,
-        #dd2476 51%,
-        #ff512f 100%
-    );
+    background-color: #ff512f;
     height: 200px;
     margin-top: 50px;
     display: flex;
