@@ -112,6 +112,8 @@ body{
     font-size: 150%;
 }
 .menuBG{
+    width: 90%;
+    margin-inline: auto;
     height: 520px;
     margin-top: 3%;
     background-color: #ff512f;
